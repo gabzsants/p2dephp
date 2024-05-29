@@ -1,0 +1,185 @@
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    width:100%;
+    display:flex;
+}
+
+p, span {
+    color: #000000;
+    text-align:center;
+
+}
+
+h1 {
+    color: #000000;
+   text-align:center;
+}
+
+.topo {
+    top:0;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    padding: 20px 0px 10px 0px;
+background: rgb(255,224,249);
+
+}
+
+
+.logo {  
+    float: left;
+    margin-left: 2rem;
+}
+
+.menu {
+    margin-top: 0.9rem;
+    float: right;
+    margin-right: 40px;
+}
+
+.span-logo{
+    margin-top: 15px;
+    float: left;
+    margin-left: 5px;
+    color:#eb52a6;
+    font-weight: bold;
+
+}
+
+.menu li {
+    display: inline;
+    float: left;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 14px 30px;
+    color: #fd66d0;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #bd1caf;
+
+}
+
+
+.conteudo-destaque {
+    
+    display: inline-block;
+}
+.circulo{
+    margin-top: 30px;
+    width: 22.50%;
+    display: inline-block;
+    padding: 0px 50px 0px 50px;
+}
+
+.quadrado{
+    margin-top: 30px;
+    width: 22.50%;
+    display: inline-block;
+      padding: 0px 50px 0px 50px;
+}
+
+.retangulo {
+    margin-top: 30px;
+    width: 22.50%;
+    display: inline-block;
+     padding: 0px 50px 0px 50px;
+}
+
+.circulo img{
+    width: 100%;
+}
+
+ .quadrado img{
+    width: 100%;
+}
+
+.retangulo img{
+    width: 100%;
+ 
+}
+.informacoes{
+     margin-left:2rem;
+     margin-right:2rem;
+   
+     
+}
+
+.secao-titulo{
+
+     margin-left:2rem;
+     margin-right:2rem;
+     width:100%;
+
+}    
+
+.titulo{
+    margin-top: 30px;
+    width: 22.50%;
+    display: inline-block;
+    padding: 0px 45px;
+    text-align:center;
+    font-weight: bold;
+    font-size:1.5rem;
+
+}
+
+.main{
+    margin-top: 6rem;
+    text-align: center;
+    width: 100%;
+}
+        .card-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card {
+            flex: 1;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            background-color: #f9f9f9;
+            width: 20%;
+            display: inline-block;
+        }
+
+        .card h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: rem;
+            margin-bottom: 10px;
+        }
+
+        .add-to-cart {
+            background-color: #fd66d0;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    
