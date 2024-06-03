@@ -3,13 +3,13 @@
     <head>
         <title>Página inicial</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="{{asset('css/paginainicial.css')}}"> 
+        <link rel="stylesheet" href="{{asset('css/header.css')}}"> 
     </head>
  <body>
  <div class="topo">
 
             <div class="logo">
-                <img width='50px' src={{asset ('img/logo.png')}}>
+                <img width='60px' src={{asset ('img/logo.png')}}>
             </div>
 
             <div class='span-logo'> HelloDonut</div>
@@ -27,7 +27,7 @@
             <li><a href="{{route('site.produtos') }}">Produtos</a>
             </li>
 
-            <li><a href="{{route('site.cadastrarDonut') }}">Novo Donut</a>
+            <li><a href="{{route('site.contato') }}">Contato</a>
             </li>
             </ul>
             </div>

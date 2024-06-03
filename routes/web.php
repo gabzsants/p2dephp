@@ -14,6 +14,8 @@ Route::get('/produtos', [App\Http\Controllers\produtos::class, 'produtos'])->nam
 
 Route::get('/sobreNos', [App\Http\Controllers\sobreNos::class, 'sobreNos'])->name('site.sobreNos');
 
-Route::get('/cadastrarDonut', [App\Http\Controllers\cadastrarDonut::class, 'cadastrarDonut'])->name('site.cadastrarDonut');
+Route::get('/compreAgora', [App\Http\Controllers\compreAgora::class, 'compreAgora'])->name('site.compreAgora');
+
+Route::get('/contato', [App\Http\Controllers\contato::class, 'contato'])->name('site.contato');
 
 Route::fallback([\App\Http\Controllers\fallback::class,'fallback']); 
