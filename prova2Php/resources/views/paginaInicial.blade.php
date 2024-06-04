@@ -1,26 +1,20 @@
 @extends('header\menu')
-
+@section('titulo', 'Página Inicial')
 @section('conteudo')
-        <div class="conteudo-destaque">
-                    <h1></h1>
-                    <p>Bem-vindo à HelloDonut! Descubra o sabor da inovação com nossos donuts artesanais da Hello Kitty. Cada mordida é uma experiência única, combinando tradição e criatividade.<p>
 
-                <div class="secao-titulo"> 
-                    <div class="titulo"> <span></span> </div>
-                    <div class="titulo"> <span ></span> </div>
-                    <div class="titulo"> <span ></span> </div>
-                </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+</head>
+<body>
+    
 
-                <div class="informacoes">
-                    <div class="circulo">
-                        
-                    </div>
-                   
-                    <div class="quadrado">
-                    </div>
 
-                    <div class="retangulo">
-                    </div>
-               </div>  
-        </div>
+</body>
+</html>
+
 @endsection

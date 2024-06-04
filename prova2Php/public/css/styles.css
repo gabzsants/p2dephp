@@ -1,0 +1,362 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+html, body {
+    margin: 0;
+    font-size: 16px;
+    width:100%;
+    display:flex;
+    font-family:'Poppins';
+    font-weight: 400;
+    
+}
+
+p, span {
+    font-family: "Itim", cursive; 
+    color: #000000;
+    text-align:center;
+
+}
+
+h1 {
+    font-family: "Itim", cursive;    color: #eb52a6;
+   text-align:center;
+}
+
+h2{
+    font-family: "Itim", cursive; 
+}
+
+ul{
+    font-family: "Itim", cursive; 
+}
+.topo {
+    z-index: 0;
+    top:0;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    padding: 20px 0px 10px 0px;
+    background: rgb(255,224,249);
+
+}
+
+
+.logo {  
+    float: left;
+    margin-left: 2rem;
+}
+
+.menu {
+    margin-top: 0.9rem;
+    float: right;
+    margin-right: 40px;
+}
+
+.span-logo{
+    margin-top: 15px;
+    float: left;
+    margin-left: 5px;
+    color:#eb52a6;
+    font-weight: bold;
+    font-family: "Itim", cursive;
+    font-size: large;
+
+
+}
+
+.menu li {
+    display: inline;
+    float: left;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 14px 30px;
+    color: #fd66d0;
+    font-family: "Itim", cursive;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.menu a:hover {
+    color: #bd1caf;
+    font-family: "Itim", cursive;
+
+   
+
+}
+
+
+.conteudo-destaque {
+    
+    display: inline-block;
+}
+
+.informacoes{
+     margin-left:2rem;
+     margin-right:2rem;
+   
+     
+}
+
+.secao-titulo{
+
+     margin-left:2rem;
+     margin-right:2rem;
+     width:100%;
+
+}    
+
+.titulo{
+    margin-top: 30px;
+    width: 22.50%;
+    display: inline-block;
+    padding: 0px 45px;
+    text-align:center;
+    font-weight: bold;
+    font-size:1.5rem;
+
+}
+
+.main{
+    margin-top: 6rem;
+    text-align: center;
+    width: 100%;
+}
+  
+
+.produtos img {
+   float: right;
+    width: 50px;
+}
+
+        .card {
+            border: 1px solid #fd66d0;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 10px;
+            text-align: center;
+            background-color: transparent;
+            width: 200px;
+            display: inline-block;
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            
+        }
+.card:hover{
+    transform: scale(1.1);
+}
+        .card h2 {
+            font-family: "Itim", cursive; 
+            font-size: 18px;
+            margin-bottom: 10px;
+         color: #fd66d0;
+            
+        }
+
+        .card p {
+            font-family: "Itim", cursive; 
+            font-weight: 400;
+            font-size: 14px;
+            color: #777;
+        }
+        .card h4{
+            font-family: "Itim", cursive; 
+            font-weight: 800;
+            font-size: 25px;
+            color: #fd66d0;
+        }
+        .card img {
+            max-width: 100%;
+            height: rem;
+            margin-bottom: 10px;
+        }
+
+        .add-to-cart {
+            font-family: "Itim", cursive; 
+            background-color: transparent;
+            color: #fd66d0;
+            border: 1px solid #fd66d0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+        }
+
+        .add-to-cart:hover {
+            font-family: "Itim", cursive; 
+            font-weight: 400;
+            background: #fd66d0;
+            color: white;
+            transform: scale(1.1);
+        }
+
+        form {
+            margin-top: 3%;
+        }
+        label{
+            text-align: left;
+            color: #eb52a6;
+            font-family: "Itim", cursive; 
+font-size: 1.2rem;
+
+        }
+        
+        input {
+            font-family: "Itim", cursive; 
+            font-size: 1rem;
+            background-color: transparent;
+            border-radius: 20px;
+            border: 2px solid rgb(255, 234, 238);
+            outline: none;
+            padding: 0.4vw;
+            width: 80%;
+            transition: .4s;
+          }
+          
+          
+          input:focus {
+            box-shadow: 0 0 0 .15vw rgb(255, 55, 255);
+            border: none;
+          }
+        
+          select {
+            font-family: "Itim", cursive; 
+            font-size: 1rem;
+            background-color: transparent;
+            border-radius: 20px;
+            border: 2px solid rgb(255, 234, 238);
+            outline: none;
+            padding: 0.4vw;
+            width: 80%;
+            transition: .4s;
+            color: #eb52a6;
+          }
+          
+          
+          select:focus {
+            box-shadow: 0 0 0 .15vw rgb(255, 55, 255);
+            border: none;
+          }
+        
+          textarea {
+            font-family: "Itim", cursive; 
+            font-size: 1rem;
+            background-color: transparent;
+            border-radius: 20px;
+            border: 2px solid rgb(255, 234, 238);
+            outline: none;
+            padding: 0.4vw;
+            width: 60%;
+            height: 5rem;
+            transition: .4s;
+          }
+          
+          
+          textarea:focus {
+            box-shadow: 0 0 0 .15vw rgb(255, 55, 255);
+            border: none;
+          }
+        
+          button {
+            font-family: "Itim", cursive; 
+            font-size: 1rem;
+            background-color: transparent;
+            color: #fd66d0;
+            border: 1px solid #fd66d0;
+            padding: 8px 60px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+        }
+
+        button:hover {
+            font-family: "Itim", cursive; 
+            font-weight: 400;
+            font-size: 1.2rem;
+            background: #fd66d0;
+            color: white;
+            transform: scale(1.1);
+        }
+
+        
+       
+        .informacoes, .contato {
+            margin: 100px 40px 40px 40px;
+        }
+        
+        .contato-principal {
+            margin: 0px 60px 60px 40px;
+        }
+        
+        .chamada {
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        
+        .video {
+            margin: 40px;
+        }
+        
+        .video img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        
+        .conteudo-pagina {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            margin-bottom: 100px;
+        }
+        
+        .titulo-pagina {
+            padding: 100px 0px 60px 0px;
+            background-color: #2a9ee2;
+            text-align: center;
+        }
+        
+        .informacao-pagina {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .informacao-pagina p{
+            color: #333;
+        }
+        
+        .rodape {
+            width: 100%;
+        }
+        
+        .redes-sociais, .area-contato, .localizacao {
+            width: 33.333%;
+            border-top:solid 1px #ccc;
+            float: left;
+            text-align: center;
+            background-color: #f8f8f8;
+            height: 250px;
+        }
+        
+        .redes-sociais, .area-contato, .localizacao p, span {
+            color: #333333;
+        }
+        
+        .redes-sociais img {
+            margin: 0px 15px 0px 15px;
+        }
+        
