@@ -5,3 +5,4 @@
 @component('components.formularioContato')
 @endcomponent
 @endsection
+@extends('footer\rodape')

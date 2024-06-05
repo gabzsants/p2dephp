@@ -7,6 +7,7 @@ html, body {
     font-size: 16px;
     width:100%;
     display:flex;
+    flex-direction: column;
 
 }
 
@@ -297,4 +298,88 @@ font-size: 1.2rem;
             text-align: center;
             margin-bottom: 100px;
         }
+        
+        .footer {
+            background: rgb(255,224,249); /* Mesma cor de fundo usada no header */
+            padding: 20px 0;
+            font-family: "Itim", cursive;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            flex-shrink: 0;
+
+        
+        }
+        
+        .footer .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .footer .footer-logo {
+            flex: 1;
+        }
+        
+        .footer .footer-links {
+            flex: 2;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .footer .footer-col {
+            min-width: 150px;
+        }
+        
+        .footer .footer-col h4 {
+            font-size: 18px;
+            color: #eb52a6; 
+            text-transform: capitalize;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .footer .footer-col ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .footer .footer-col ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer .footer-col ul li a {
+            font-size: 16px;
+            color: #fd66d0; 
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .footer .footer-col ul li a:hover {
+            color: #bd1caf; 
+            padding-left: 10px;
+        }
+        
+        .footer .footer-social {
+            flex: 1;
+            text-align: right;
+            color: #eb52a6;
+        }
+        
+        .footer .footer-social .social-links a {
+            display: inline-block;
+            height: 40px;
+            width: 30px;
+            margin: 0 5px;
+            text-align: center;
+            line-height: 40px;
+            color: #eb52a6;
+            
+        }
+       
         
