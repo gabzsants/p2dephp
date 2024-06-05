@@ -20,7 +20,7 @@ Route::redirect('/sobre-nos', '/sobreNos');
 
 
 Route::get('/contato', [App\Http\Controllers\contato::class, 'contato'])->name('site.contato');
-Route::post('/contato', [App\Http\Controllers\contato::class, 'contato'])->name('site.contato');
+Route::post('/contato', [App\Http\Controllers\contato::class, 'saveContato'])->name('site.contato');
 
 Route::get('/cadastrarDonut', [App\Http\Controllers\cadastrarDonut::class, 'cadastrarDonut'])->name('site.cadastrarDonut');
 

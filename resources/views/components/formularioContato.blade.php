@@ -13,13 +13,13 @@
     <form action = {{ route('site.contato') }} method="post">
         @csrf
         <label for="nome">Nome: </label>
-        <input id="nome" type="text" </input>
+        <input id="nome" type="text" name="nome">
         <br><br>
         <label for="email">E-mail: </label>
-        <input id="email" type="text" </input>
+        <input id="email" type="text" name="email">
         <br><br>
         <label for="assunto">Assunto: </label>
-        <select id="assunto">
+        <select id="assunto" name="assunto">
             <option value="1">Dúvida</option>
             <option value="2">Elogio</option>
             <option value="3">Sugestão</option>
@@ -29,11 +29,11 @@
         </select>
         <br><br>
         <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem"></textarea>
+        <textarea id="mensagem" name="mensagem"></textarea>
         <br><br><br>
         <button type="submit">Enviar <i class="fa fa-paper-plane"></i></button>
-        <button type="submit">Editar</button>
-        <button type="submit">Excluir</button>
+        <button class="editar" type="submit">Editar</button>
+        <button class="apagar" type="submit">Excluir</button>
 
 
     </form>
