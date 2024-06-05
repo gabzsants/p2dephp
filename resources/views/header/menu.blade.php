@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Página inicial</title>
+        <title>@yield('titulo')</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="{{asset('css/header.css')}}"> 
+        <link rel="stylesheet" href="{{asset('css/styles.css')}}"> 
     </head>
  <body>
  <div class="topo">
@@ -24,12 +24,21 @@
             <li><a href="{{route('site.sobreNos') }}">Sobre Nós</a>
             </li>
 
+            <ul>
             <li><a href="{{route('site.produtos') }}">Produtos</a>
             </li>
+            </ul>
 
+            <ul>
             <li><a href="{{route('site.contato') }}">Contato</a>
             </li>
             </ul>
+
+            <ul>
+                <li><a href="{{route('site.cadastrarDonut') }}">Cadastrar Donut</a>
+                </li>
+                </ul>
+
             </div>
         </div>
 

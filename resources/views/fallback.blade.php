@@ -1,4 +1,4 @@
-@extends('header\menu')
+@extends('styles\menu')
 
 @section('conteudo')
 <h3>A página que você tentou acessar não existe ://</h3>

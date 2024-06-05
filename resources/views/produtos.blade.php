@@ -1,6 +1,7 @@
 @extends('header\menu')
-
+@section('titulo', 'Produtos')
 @section('conteudo')
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
