@@ -5,13 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class contato extends Model
+class contatodb extends Model
 {
+
     private string $nome;
     private string $email;
     private int $assunto;
     private string $mensagem;
-
+    protected $table = "contatodbs";
+    protected $fillable=['nome','email','assunto','mensagem'];
     
     public function getNome() : string {
         return $this->nome;
@@ -46,5 +48,7 @@ class contato extends Model
         $this->mensagem = $mensagem;
     }
 }
+
+
 
 

@@ -27,19 +27,14 @@
             <ul>
             <li><a href="{{route('site.produtos') }}">Produtos</a>
             </li>
-            </ul>
-
+            
             <ul>
             <li><a href="{{route('site.contato') }}">Contato</a>
             </li>
-            </ul>
+            
 
-            <ul>
-                <li><a href="{{route('site.cadastrarDonut') }}">Cadastrar Donut</a>
-                </li>
-                </ul>
-
-            </div>
+        
+            
         </div>
 
         <main class='main'>
