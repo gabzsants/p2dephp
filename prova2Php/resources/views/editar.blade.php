@@ -1,3 +1,4 @@
+@extends('header/menu')
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,17 +10,18 @@
     <title>Contato</title>
 </head>
 <body>
-    <h1>Entre em contato Conosco!</h1>
-    <form action = {{ route('site.contato') }} method="post">
+    <h1>Editar mensagem de contato</h1>
+    <form action=" {{ route('contato.update', $contatodb->id) }}" method="POST">
         @csrf
+        @method('PUT')
         <label for="nome">Nome: </label>
-        <input id="nome" type="text" name="nome">
+        <input id="nome" type="text" name="nome" value="{{ $contatodb->nome }}" required>
         <br><br>
         <label for="email">E-mail: </label>
-        <input id="email" type="text" name="email">
+        <input id="email" type="text" name="email" value="{{ $contatodb->email }}" required>
         <br><br>
         <label for="assunto">Assunto: </label>
-        <select id="assunto" name="assunto">
+        <select id="assunto" name="assunto" value="{{ $contatodb->assunto }}" required>
             <option value="1">Dúvida</option>
             <option value="2">Elogio</option>
             <option value="3">Sugestão</option>
@@ -29,13 +31,13 @@
         </select>
         <br><br>
         <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem"></textarea>
+        <textarea id="mensagem" name="mensagem" value="{{ $contatodb->mensagem }}" required></textarea>
         <br><br><br>
         <button type="submit">Enviar <i class="fa fa-paper-plane"></i></button>
-        <button class="editar" type="submit">Editar</button>
+        <button class="editar" type="submit" action={{ route('registers.destroy', $register->id) }}" method="POST" class="d-inline">Editar</button>
         <button class="deletar" type="submit">Deletar</button>
-
-
+        @csrf
+        @method('DELETE')
     </form>
 </body>
 </html>
