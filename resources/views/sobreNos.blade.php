@@ -30,3 +30,5 @@
 </html>
 
 @endsection
+
+@extends('footer\rodape')
