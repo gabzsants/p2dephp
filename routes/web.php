@@ -22,6 +22,13 @@ Route::redirect('/sobre-nos', '/sobreNos');
 Route::get('/contato', [App\Http\Controllers\contato::class, 'contato'])->name('site.contato');
 Route::post('/contato', [App\Http\Controllers\contato::class, 'saveContato'])->name('site.contato');
 
-Route::get('/cadastrarDonut', [App\Http\Controllers\cadastrarDonut::class, 'cadastrarDonut'])->name('site.cadastrarDonut');
+Route::get('/exibirdados', [App\Http\Controllers\contato::class, 'exibir'])->name('contato.exibir');
+
+Route::get('/exibirdados/{id}/editar', [contato::class, 'editar'])->name('contato.editar');
+
+
+Route::put('/exibirdados/{id}', [contato::class, 'atualizar'])->name('site.contato.atualizar');
+
+Route::delete('/exibirdados/{id}', [App\Http\Controllers\contato::class,'deletar'])->name('site.contato.deletar');
 
 Route::fallback([\App\Http\Controllers\fallback::class,'fallback']); 

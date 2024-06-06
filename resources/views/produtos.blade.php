@@ -19,7 +19,7 @@
     <img src={{asset ('img/donuttest.jpg')}}>
         <h2>Donut Clássico</h2>
         <p>Descrição do produto</p>
-        <h4>R$ 3,50</h4>
+        <h4>R$ 8,50</h4>
         <button class="add-to-cart">Adicionar ao Carrinho <i class="fa fa-cart-shopping"></i></button>
     </div>
 
@@ -27,29 +27,29 @@
     <img src={{asset ('img/donuttest.jpg')}}>
     <h2>Donut de Chocolate</h2>
     <p>Descrição do produto</p>
-        <h4>R$ 4,00</h4>
+        <h4>R$ 10,00</h4>
         <button class="add-to-cart">Adicionar ao Carrinho <i class="fa fa-cart-shopping"></i></button>
     </div>
 
     <div class="card">
         <img src={{asset ('img/donuttest.jpg')}}>
-        <h2>Donut de Chocolate</h2>
+        <h2>Donut de Leite condensado</h2>
         <p>Descrição do produto</p>
-            <h4>R$ 4,00</h4>
+            <h4>R$ 6,00</h4>
             <button class="add-to-cart">Adicionar ao Carrinho <i class="fa fa-cart-shopping"></i></button>
         </div>
 
         <div class="card">
             <img src={{asset ('img/donuttest.jpg')}}>
-            <h2>Donut de Chocolate</h2>
+            <h2>Donut de Leite ninho</h2>
             <p>Descrição do produto</p>
-                <h4>R$ 4,00</h4>
+                <h4>R$ 10,00</h4>
                 <button class="add-to-cart">Adicionar ao Carrinho <i class="fa fa-cart-shopping"></i></button>
             </div>
 
             <div class="card">
                 <img src={{asset ('img/donuttest.jpg')}}>
-                <h2>Donut de Chocolate</h2>
+                <h2>Donut de Morango</h2>
                 <p>Descrição do produto</p>
                     <h4>R$ 4,00</h4>
                     <button class="add-to-cart">Adicionar ao Carrinho <i class="fa fa-cart-shopping"></i></button>
@@ -57,7 +57,7 @@
 
                 <div class="card">
                     <img src={{asset ('img/donuttest.jpg')}}>
-                    <h2>Donut de Chocolate</h2>
+                    <h2>Donut de Nutella</h2>
                     <p>Descrição do produto</p>
                         <h4>R$ 4,00</h4>
                         <button class="add-to-cart">Adicionar ao Carrinho <i class="fa fa-cart-shopping"></i></button>
@@ -65,7 +65,7 @@
 
                     <div class="card">
                         <img src={{asset ('img/donuttest.jpg')}}>
-                        <h2>Donut de Chocolate</h2>
+                        <h2>Donut de Frutas vermelhas</h2>
                         <p>Descrição do produto</p>
                             <h4>R$ 4,00</h4>
                             <button class="add-to-cart">Adicionar ao Carrinho <i class="fa fa-cart-shopping"></i></button>
@@ -73,7 +73,7 @@
 
                         <div class="card">
                             <img src={{asset ('img/donuttest.jpg')}}>
-                            <h2>Donut de Chocolate</h2>
+                            <h2>Donut de Baunilha</h2>
                             <p>Descrição do produto</p>
                                 <h4>R$ 4,00</h4>
                                 <button class="add-to-cart">Adicionar ao Carrinho <i class="fa fa-cart-shopping"></i></button>
