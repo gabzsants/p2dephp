@@ -16,6 +16,7 @@ public function saveContato(){
         'assunto'=> (int) $_POST['assunto'],
         'mensagem'=> $_POST['mensagem']
     ]);
+    
     return view('contato');
 }
 }
